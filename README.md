@@ -9,7 +9,18 @@ Our samples.json file holds a wealth of data on a large study which recorded val
 ## Results
 The resulting webpage takes input via an HTML "select" tag and dynamically generates a list of all participant id's. Once a particular id is selected, an function within the select tag, "optionChanged", is called and catches the value attribute of the select tag, passing down to the "buildMetadata" and "buildCharts" functions. This argument is then used by these functions to parse through the samples.json and gather the relevant data for our charts.
 
+<img width="1191" alt="Screen Shot 2020-10-03 at 4 22 40 PM" src="https://user-images.githubusercontent.com/66881241/95003503-c5659680-0594-11eb-8e19-2b38b02ace51.png">
+
+<img width="224" alt="Screen Shot 2020-10-03 at 4 22 46 PM" src="https://user-images.githubusercontent.com/66881241/95003505-c8f91d80-0594-11eb-856e-2a6dd752f007.png">
+
+<img width="1031" alt="Screen Shot 2020-10-03 at 4 22 52 PM" src="https://user-images.githubusercontent.com/66881241/95003508-cb5b7780-0594-11eb-849b-e21f27dc3975.png">
+
 Beyond merely visualizing the data I also applied some css and bootstrap styling. In Particular I applied a background image to the bootstrap jumbotron, changed the background color of the body of the page and all chart backgrounds to aqua, imported a custom font from Google fonts for the chart titles, and modified the page layout to be pleasing to the eye. 
 
+<img width="793" alt="Screen Shot 2020-10-03 at 4 23 00 PM" src="https://user-images.githubusercontent.com/66881241/95003510-cdbdd180-0594-11eb-9024-b3b356abf7f5.png">
+
+
 In addition to this I applied a myriad of customizations in the javascript code for the Plotly graphs themselves.
+
+<img width="256" alt="Screen Shot 2020-10-03 at 4 23 09 PM" src="https://user-images.githubusercontent.com/66881241/95003513-d1515880-0594-11eb-9575-877b7cce0a19.png">
 
