@@ -111,6 +111,8 @@ function buildCharts(sample) {
       font: {
         family: 'Courier Prime, monospace'
       },
+      width: 400,
+      height: 400,
       margin: {
         l: 100,
         r:100,
