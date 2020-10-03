@@ -19,5 +19,6 @@ Beyond merely visualizing the data I also applied some css and bootstrap styling
 
 In addition to this I applied a myriad of customizations in the javascript code for the Plotly graphs themselves.
 
+<img width="1310" alt="Screen Shot 2020-10-03 at 4 28 41 PM" src="https://user-images.githubusercontent.com/66881241/95003576-84ba4d00-0595-11eb-8b23-615f8ed4b594.png">
 
 
