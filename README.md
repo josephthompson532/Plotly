@@ -14,10 +14,10 @@ The resulting webpage takes input via an HTML "select" tag and dynamically gener
 
 Beyond merely visualizing the data I also applied some css and bootstrap styling. In Particular I applied a background image to the bootstrap jumbotron, changed the background color of the body of the page and all chart backgrounds to aqua, imported a custom font from Google fonts for the chart titles, and modified the page layout to be pleasing to the eye. 
 
+In addition to this I applied a myriad of customizations in the javascript code for the Plotly graphs themselves.
+
 <img width="1362" alt="Screen Shot 2020-10-03 at 4 26 23 PM" src="https://user-images.githubusercontent.com/66881241/95003555-4b81dd00-0595-11eb-9d77-09b45dc47484.png">
 
-
-In addition to this I applied a myriad of customizations in the javascript code for the Plotly graphs themselves.
 
 <img width="1310" alt="Screen Shot 2020-10-03 at 4 28 41 PM" src="https://user-images.githubusercontent.com/66881241/95003576-84ba4d00-0595-11eb-8b23-615f8ed4b594.png">
 
