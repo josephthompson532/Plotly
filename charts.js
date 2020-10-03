@@ -107,7 +107,10 @@ function buildCharts(sample) {
     // Create the layout for the bar chart. 
     var barLayout = {
       title: "Top Ten Bacteria Cultures Found",
-      "titlefont": {"size": 26},
+      "titlefont": {"size": 20},
+      font: {
+        family: 'Courier Prime, monospace'
+      },
       margin: {
         l: 100,
         r:100,
@@ -136,7 +139,10 @@ function buildCharts(sample) {
     // Create the layout for the bubble chart.
     var bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
-      "titlefont": {"size": 26},
+      "titlefont": {"size": 20},
+      font: {
+        family: 'Courier Prime, monospace'
+      },
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
       plot_bgcolor: "aqua",
@@ -149,8 +155,7 @@ function buildCharts(sample) {
     // Create the trace for the gauge chart.
     var gaugeData = [{
       value: wfreq,
-      title: {text: "Belly Button Washing Frequency"},
-      "titlefont": {"size": 26},
+      title: {text: "Belly Button Washing Frequency", font: {size: 20, family: 'Courier Prime, monospace'} },
       type: "indicator",
       mode: "gauge+number",
       gauge: {
