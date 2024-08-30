@@ -111,6 +111,7 @@ function buildCharts(sample) {
       font: {
         family: 'Courier Prime, monospace'
       },
+      bar: {color: "black"},
       width: 400,
       height: 400,
       margin: {
