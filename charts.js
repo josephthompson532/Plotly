@@ -119,7 +119,7 @@ function buildCharts(sample) {
         t:100,
         b:30
       },
-      plot_bgcolor: "aqua",
+      plot_bgcolor: "grey",
       paper_bgcolor:"aqua"
 
     };
@@ -147,7 +147,7 @@ function buildCharts(sample) {
       },
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
-      plot_bgcolor: "aqua",
+      plot_bgcolor: "grey",
       paper_bgcolor:"aqua"
     };
 
@@ -183,7 +183,7 @@ function buildCharts(sample) {
       height: 400,
       margin: { t: 25, r: 25, l: 25, b: 25 },
       font: { color: "black", family: "Arial" },
-      plot_bgcolor: "aqua",
+      plot_bgcolor: "grey",
       paper_bgcolor:"aqua"
     };
 
