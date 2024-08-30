@@ -100,6 +100,9 @@ function buildCharts(sample) {
       y: yticks,
       text: top10_otu_labels,
       type: 'bar',
+      marker:{
+        color: ['black', 'black', 'black', 'black', 'black', 'black', 'black', 'black', 'black', 'black']
+      },
       orientation: 'h'
     };
 
