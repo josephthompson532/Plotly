@@ -119,8 +119,8 @@ function buildCharts(sample) {
         t:100,
         b:30
       },
-      plot_bgcolor: "#6bedcd",
-      paper_bgcolor:"#6ac1ec"
+      plot_bgcolor: "#1b99f3",
+      paper_bgcolor:"#1b99f3"
 
     };
     // Use Plotly to plot the data with the layout. 
@@ -147,8 +147,8 @@ function buildCharts(sample) {
       },
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
-      plot_bgcolor: "#6bedcd",
-      paper_bgcolor:"#6ac1ec"
+      plot_bgcolor: "#1b99f3",
+      paper_bgcolor:"#1b99f3"
     };
 
     // Use Plotly to plot the data with the layout.
@@ -183,8 +183,8 @@ function buildCharts(sample) {
       height: 400,
       margin: { t: 25, r: 25, l: 25, b: 25 },
       font: { color: "black", family: "Arial" },
-      plot_bgcolor: "#6bedcd",
-      paper_bgcolor:"#6ac1ec"
+      plot_bgcolor: "#1b99f3",
+      paper_bgcolor:"#1b99f3"
     };
 
     // Use Plotly to plot the gauge data and layout.
