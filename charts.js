@@ -119,8 +119,8 @@ function buildCharts(sample) {
         t:100,
         b:30
       },
-      plot_bgcolor: "grey",
-      paper_bgcolor:"aqua"
+      plot_bgcolor: "aqua",
+      paper_bgcolor:"#6ac1ec"
 
     };
     // Use Plotly to plot the data with the layout. 
